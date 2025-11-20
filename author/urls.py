@@ -11,3 +11,5 @@ router.register("authors", views.AuthorViewSet)
 urlpatterns = [
     path("", include(router.urls)),
 ]
+
+app_name = "author"
